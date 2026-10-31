@@ -1,0 +1,12 @@
+{
+  "name": "@revguard/bun",
+  "version": "0.1.0",
+  "description": "Bun bundler helper for RevGuard (production builds only).",
+  "type": "module",
+  "main": "index.js",
+  "exports": { ".": "./index.js" },
+  "dependencies": {
+    "@revguard/node-bridge": "0.1.0"
+  },
+  "license": "MIT"
+}

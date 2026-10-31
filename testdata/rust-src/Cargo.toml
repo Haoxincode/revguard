@@ -1,0 +1,9 @@
+[package]
+name = "revguard-rust-src-demo"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[[bin]]
+name = "revguard-rust-src-demo"
+path = "src/main.rs"

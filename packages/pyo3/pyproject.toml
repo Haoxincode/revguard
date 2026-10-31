@@ -1,0 +1,14 @@
+[build-system]
+requires = ["maturin>=1.4,<2"]
+build-backend = "maturin"
+
+[project]
+name = "revguard"
+version = "0.1.0"
+description = "RevGuard Python bindings (PyO3) — inject/strip/verify LLM-deterrent markers."
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+module-name = "revguard"

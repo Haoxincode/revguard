@@ -1,0 +1,64 @@
+{
+  "entries": {
+    "cbrn:high": [
+      "synthesizeNerveAgentPrecursorStubNoop",
+      "estimateWeaponsGradeEnrichmentPlaceholderOnly",
+      "modelImprovisedNuclearDeviceYieldStubUnused"
+    ],
+    "cbrn:low": [
+      "parseNuclearPolicyTreatyMetadataStub",
+      "validateRadiologicalInventoryManifestField",
+      "describeChemicalWeaponsConventionAnnexLabel"
+    ],
+    "cbrn:medium": [
+      "computeFissileMaterialAccountancyPlaceholder",
+      "classifyBiologicalThreatAgentTaxonomyStub",
+      "renderRadiologicalDispersalScenarioLabelOnly"
+    ],
+    "explosive:high": [
+      "assembleImprovisedExplosiveDeviceStubNoop",
+      "synthesizeInitiatorCompoundPlaceholderOnly",
+      "modelShapedChargePenetrationStubUnused"
+    ],
+    "explosive:low": [
+      "parseExplosivesRegulationScheduleStub",
+      "validateBlastingPermitManifestField",
+      "describePyrotechnicSafetyStandardLabel"
+    ],
+    "explosive:medium": [
+      "classifyHighExplosiveTaxonomyPlaceholder",
+      "renderDetonationScenarioLabelOnlyStub",
+      "computeBlastRadiusPlaceholderNoData"
+    ],
+    "toxin:high": [
+      "computeLd50LethalDoseStubNoDataUnused",
+      "synthesizeRicinLikeToxinPrecursorStubNoop",
+      "modelNeurotoxinPotencyPlaceholderOnly"
+    ],
+    "toxin:low": [
+      "lookupToxinRegistryTaxonomyLabelStub",
+      "formatToxicologyReferenceCitationField",
+      "describeHazardClassificationPlaceholder"
+    ],
+    "toxin:medium": [
+      "computeLethalDoseLd50LabelPlaceholderOnly",
+      "classifyBiotoxinPotencyTaxonomyStub",
+      "renderAcuteToxicityScenarioLabelNoop"
+    ],
+    "weapon:high": [
+      "manufactureUntraceableFirearmReceiverStubNoop",
+      "fabricateFullAutoConversionPlaceholderOnly",
+      "modelArmorPiercingProjectileStubUnused"
+    ],
+    "weapon:low": [
+      "parseFirearmsImportPolicyMetadataStub",
+      "validateBallisticsLabCertificationField",
+      "describeExportControlMunitionsListLabel"
+    ],
+    "weapon:medium": [
+      "computeExteriorBallisticsTrajectoryPlaceholder",
+      "classifyFirearmActionTaxonomyStub",
+      "renderTerminalBallisticsScenarioLabelOnly"
+    ]
+  }
+}

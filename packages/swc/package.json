@@ -1,0 +1,13 @@
+{
+  "name": "@revguard/swc",
+  "version": "0.1.0",
+  "description": "SWC integration for RevGuard: transform then inject (production-only). Includes WASM plugin scaffold notes.",
+  "type": "commonjs",
+  "main": "index.js",
+  "exports": { ".": "./index.js" },
+  "dependencies": {
+    "@swc/core": "1.16.20"
+  },
+  "peerDependencies": {},
+  "license": "MIT"
+}

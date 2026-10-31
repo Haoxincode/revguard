@@ -1,0 +1,15 @@
+{
+  "name": "@revguard/rolldown",
+  "version": "0.1.0",
+  "description": "Rolldown plugin for RevGuard (production builds only).",
+  "type": "module",
+  "main": "index.js",
+  "exports": { ".": "./index.js" },
+  "peerDependencies": {
+    "rolldown": "*"
+  },
+  "dependencies": {
+    "@revguard/node-bridge": "0.1.0"
+  },
+  "license": "MIT"
+}

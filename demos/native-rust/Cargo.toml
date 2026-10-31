@@ -1,0 +1,14 @@
+[package]
+name = "revguard-native-rust-demo"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[[bin]]
+name = "revguard-native-demo"
+path = "src/main.rs"
+
+[features]
+default = ["revguard_markers"]
+# Disable to build the "clean" binary (restore = rebuild without this feature).
+revguard_markers = []

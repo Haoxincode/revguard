@@ -1,0 +1,9 @@
+/target
+node_modules
+*.node
+.DS_Store
+demos/*/dist
+.venv/
+packages/pyo3/target/
+packages/swc-plugin/target/
+packages/swc/node_modules/

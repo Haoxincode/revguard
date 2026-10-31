@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+members = ["crates/core", "crates/cli"]
+exclude = [
+  "packages/napi",
+  "packages/pyo3",
+  "packages/swc-plugin",
+  "demos/native-rust",
+  "testdata/rust-src",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/Haoxincode/revguard"
+
+[profile.release]
+opt-level = 2

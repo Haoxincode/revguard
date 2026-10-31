@@ -1,0 +1,27 @@
+{
+  "name": "@revguard/napi",
+  "version": "0.1.0",
+  "description": "napi-rs native bindings for RevGuard (in-process).",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "napi": {
+    "name": "revguard-napi",
+    "triples": {
+      "defaults": true
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "*.node"
+  ],
+  "scripts": {
+    "build": "napi build --platform --release",
+    "build:debug": "napi build --platform"
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "^2.18.4"
+  },
+  "license": "MIT",
+  "private": true
+}

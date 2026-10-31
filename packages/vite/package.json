@@ -1,0 +1,15 @@
+{
+  "name": "@revguard/vite",
+  "version": "0.1.0",
+  "description": "Vite plugin for RevGuard (production builds only; Vite 6+/Rolldown-compatible).",
+  "type": "module",
+  "main": "index.js",
+  "exports": { ".": "./index.js" },
+  "peerDependencies": {
+    "vite": ">=5"
+  },
+  "dependencies": {
+    "@revguard/node-bridge": "0.1.0"
+  },
+  "license": "MIT"
+}

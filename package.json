@@ -1,0 +1,25 @@
+{
+  "name": "revguard-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "RevGuard monorepo \u2014 production-only LLM-deterrent injection for JS artifacts.",
+  "workspaces": [
+    "packages/node-bridge",
+    "packages/vite",
+    "packages/rolldown",
+    "packages/bun",
+    "packages/napi",
+    "packages/swc"
+  ],
+  "scripts": {
+    "build:rust": "cargo build --release",
+    "selftest": "cargo build --release && ./scripts/selftest.sh core",
+    "test:rust": "cargo test -p revguard-core",
+    "build:napi": "npm run build --workspace=@revguard/napi",
+    "selftest:napi": "./scripts/selftest.sh napi",
+    "selftest:all": "cargo build --release && ./scripts/selftest.sh all",
+    "build:py": "cd packages/pyo3 && maturin develop --release",
+    "selftest:extra": "./scripts/selftest.sh extra"
+  },
+  "license": "MIT"
+}

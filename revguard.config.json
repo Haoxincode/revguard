@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "categories": ["cbrn", "toxin", "explosive", "weapon"],
+  "intensity": "medium",
+  "inject_banner": true,
+  "inject_dead_code": true,
+  "inject_source_map": false,
+  "inject_wasm_section": false,
+  "wordlist_path": null,
+  "wordlist_version": null
+}

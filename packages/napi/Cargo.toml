@@ -1,0 +1,18 @@
+# napi-rs native module.
+# Build with: npm i && npm run build  (requires napi-rs CLI + node headers)
+[package]
+name = "revguard-napi"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+napi = { version = "2", default-features = false, features = ["napi4"] }
+napi-derive = "2"
+revguard-core = { path = "../../crates/core" }
+
+[build-dependencies]
+napi-build = "2"

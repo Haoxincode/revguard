@@ -1,0 +1,15 @@
+[package]
+name = "revguard"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "RevGuard CLI: inject / strip / verify production-only LLM-deterrent markers."
+
+[[bin]]
+name = "revguard"
+path = "src/main.rs"
+
+[dependencies]
+revguard-core = { path = "../core" }
+clap = { version = "4", features = ["derive"] }
+serde_json = "1"
